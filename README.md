@@ -20,6 +20,7 @@
     If there is no port specified, then set as default the port 8989. Otherwise, program must respond with usage message: [USAGE]: ./TCPChat $port
 
  ## Usage:
+ - Host:
  `$ go run .` <br>
  `Listening on the port :8989`<br>
  `$ go run . 2525`<br>
@@ -27,5 +28,8 @@
  `$ go run . 2525 localhost`<br>
  `[USAGE]: ./TCPChat $port`<br>
 
+ - Clients:
+ `nc $ip(localhost) $port(8989)`
+ 
  ## Author:
  - Creata21
